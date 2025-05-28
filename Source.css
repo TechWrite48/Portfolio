@@ -14,11 +14,12 @@ html{
 .Homepage_Content{
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 5% 95%;
     border-top-style: dashed;
+    border-bottom-style: dashed;
+    border-bottom-width: 2px;
     border-top-width: 2px;
     width: auto;
-    height: 600px;
+    height: auto;
     justify-items: center;
 }
 .Game_Name{
@@ -27,16 +28,40 @@ html{
     display: grid;
     justify-content: center;
 }
+.Pond_Game{
+    width: 80%;
+    height: 100%;
+}
 .Project_Pond{
-    width: 600px;
-    height: 450px;
+    align-self: center;
+    padding-top: 10%;
+    width: 100%;
+    height: 70%;
     display: grid;
+    grid-template-columns: 10% 10%;
     background-image: url(Page_Resources/Water_Surface.gif);
     box-shadow: inset 0 -3em 3em rgba(0, 73, 200, 0.3);
     border-radius: 5px;
     border-width: 5px;
     border-style: solid;
     border-color: rgb(140, 53, 34);
+}
+.Project_Checkbox{
+    appearance: none;
+}
+@keyframes Project1_Swim {
+    from {
+    transform: translateX(0%);
+    }
+
+    to {
+    transform: translateX(100%);
+    }
+}
+.Swimming_Project{
+    height: 50px;
+    width: auto;
+    opacity: .75;
 }
 .Main_Info{
     border-left-width: 2px;

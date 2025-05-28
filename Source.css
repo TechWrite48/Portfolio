@@ -39,7 +39,7 @@ html{
     height: 70%;
     display: grid;
     grid-template-columns: 10% 10%;
-    background-image: url(Page_Resources/Water_Surface.gif);
+    background-image: url(page_resources/water_surface.gif);
     box-shadow: inset 0 -3em 3em rgba(0, 73, 200, 0.3);
     border-radius: 5px;
     border-width: 5px;
